@@ -1,0 +1,259 @@
+[12-May-2022 22:22:28 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1, 4' at line 1 in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:158
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(158): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(28): GetModel::getRelDataFilter('cursos, profeso...', 'curso,profesor,...', 'nombre_curso', 'el curso 1', 'nombre_curso, n...', NULL, NULL, '1', '4')
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(23): GetController::getRelDataFilter('cursos, profeso...', 'curso,profesor,...', 'nombre_curso', 'el curso 1', 'nombre_curso, n...', NULL, NULL, '1', '4')
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 158
+[12-May-2022 22:24:02 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1, 4' at line 1 in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:158
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(158): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(28): GetModel::getRelDataFilter('cursos, profeso...', 'curso,profesor,...', 'nombre_curso,id...', 'el curso 1_1', 'nombre_curso, n...', NULL, NULL, '1', '4')
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(23): GetController::getRelDataFilter('cursos, profeso...', 'curso,profesor,...', 'nombre_curso,id...', 'el curso 1_1', 'nombre_curso, n...', NULL, NULL, '1', '4')
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 158
+[12-May-2022 22:24:17 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php:41
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(32): GetController->fncResponse('SELECT nombre_c...')
+#1 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(23): GetController::getRelDataFilter('cursos, profeso...', 'curso,profesor,...', 'nombre_curso,id...', 'el curso 1_1', 'nombre_curso, n...', NULL, NULL, '1', '4')
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php on line 41
+[12-May-2022 22:26:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1, 4' at line 1 in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:158
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(158): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(28): GetModel::getRelDataFilter('cursos, profeso...', 'curso,profesor,...', 'nombre_curso,id...', 'el curso 1_1', 'nombre_curso, n...', NULL, NULL, '1', '4')
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(23): GetController::getRelDataFilter('cursos, profeso...', 'curso,profesor,...', 'nombre_curso,id...', 'el curso 1_1', 'nombre_curso, n...', NULL, NULL, '1', '4')
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 158
+[12-May-2022 22:27:04 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php:43
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(18): GetController->fncResponse('SELECT id_curso...')
+#1 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(14): GetController::getDataFilter('cursos', 'id_curso,nombre...', 'nombre_curso,id...', 'el curso 1_2', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php on line 43
+[12-May-2022 22:27:56 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1, 4' at line 1 in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:158
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(158): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(29): GetModel::getRelDataFilter('cursos, profeso...', 'curso,profesor,...', 'nombre_curso,id...', 'el curso 1_1', 'nombre_curso, n...', NULL, NULL, '1', '4')
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(23): GetController::getRelDataFilter('cursos, profeso...', 'curso,profesor,...', 'nombre_curso,id...', 'el curso 1_1', 'nombre_curso, n...', NULL, NULL, '1', '4')
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 158
+[12-May-2022 22:28:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'profesor_curso' in 'field list' in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:22
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(22): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(7): GetModel::getData('cursos', 'id_curso,nombre...', 'id_curso', 'DESC', '1', '3')
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(27): GetController::getData('cursos', 'id_curso,nombre...', 'id_curso', 'DESC', '1', '3')
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 22
+[12-May-2022 22:28:58 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'profesor_curso_id' in 'field list' in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:22
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(22): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(7): GetModel::getData('cursos', 'id_curso,nombre...', 'id_curso', 'DESC', '1', '3')
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(27): GetController::getData('cursos', 'id_curso,nombre...', 'id_curso', 'DESC', '1', '3')
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 22
+[12-May-2022 22:29:58 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1' at line 1 in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:158
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(158): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(29): GetModel::getRelDataFilter('cursos, profeso...', 'curso,profesor,...', 'nombre_curso,id...', 'el curso 1_1', 'nombre_curso, n...', NULL, NULL, '0', '1')
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(23): GetController::getRelDataFilter('cursos, profeso...', 'curso,profesor,...', 'nombre_curso,id...', 'el curso 1_1', 'nombre_curso, n...', NULL, NULL, '0', '1')
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 158
+[12-May-2022 22:59:51 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%otro%'' at line 1 in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:183
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(183): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(36): GetModel::getDataSearch('cursos', 'name_curso', 'name_curso', 'otro', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(28): GetController::getDataSearch('cursos', 'name_curso', 'name_curso', 'otro', NULL, NULL, NULL, NULL)
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 183
+[12-May-2022 23:02:19 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name_curso' in 'field list' in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:183
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(183): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(36): GetModel::getDataSearch('cursos', 'name_curso', 'name_curso', 'otro', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(28): GetController::getDataSearch('cursos', 'name_curso', 'name_curso', 'otro', NULL, NULL, NULL, NULL)
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 183
+[12-May-2022 23:10:24 Europe/Berlin] PHP Warning:  Undefined variable $equalTo in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 172
+[12-May-2022 23:21:24 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database-1.relations' doesn't exist in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:205
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(205): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(36): GetModel::getDataSearch('relations', '*', 'nombre_curso,id...', '1_1', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(28): GetController::getDataSearch('relations', '*', 'nombre_curso,id...', '1_1', NULL, NULL, NULL, NULL)
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 205
+[12-May-2022 23:22:02 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database-1.relations' doesn't exist in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:205
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(205): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(36): GetModel::getDataSearch('relations', '*', 'nombre_curso,id...', '1_1', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(28): GetController::getDataSearch('relations', '*', 'nombre_curso,id...', '1_1', NULL, NULL, NULL, NULL)
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 205
+[12-May-2022 23:22:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database-1.relations' doesn't exist in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:205
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(205): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(36): GetModel::getDataSearch('relations', '*', 'nombre_curso,id...', '1_1', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(28): GetController::getDataSearch('relations', '*', 'nombre_curso,id...', '1_1', NULL, NULL, NULL, NULL)
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 205
+[12-May-2022 23:23:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database-1.relations' doesn't exist in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:205
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(205): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(36): GetModel::getDataSearch('relations', '*', 'nombre_curso,id...', '1_1', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(28): GetController::getDataSearch('relations', '*', 'nombre_curso,id...', '1_1', NULL, NULL, NULL, NULL)
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 205
+[12-May-2022 23:23:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database-1.relations' doesn't exist in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:205
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(205): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(36): GetModel::getDataSearch('relations', '*', 'nombre_curso,id...', '1_1', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(28): GetController::getDataSearch('relations', '*', 'nombre_curso,id...', '1_1', NULL, NULL, NULL, NULL)
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 205
+[12-May-2022 23:41:15 Europe/Berlin] PHP Warning:  Undefined variable $linkTo in C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php on line 53
+[12-May-2022 23:41:15 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BETWEEN fecha_cracion_curso AND 2021-02-23' at line 1 in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(286): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(53): GetModel::getDataRange('cursos', '*', NULL, 'fecha_cracion_c...', '2021-02-23', '2021-02-25', NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(36): GetController::getDataRange('cursos', '*', 'fecha_cracion_c...', '2021-02-23', '2021-02-25', NULL, NULL, NULL, NULL)
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 286
+[12-May-2022 23:41:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fecha_cracion_curso' in 'where clause' in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:286
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(286): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(53): GetModel::getDataRange('cursos', '*', 'fecha_cracion_c...', '2021-02-23', '2021-02-25', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(36): GetController::getDataRange('cursos', '*', 'fecha_cracion_c...', '2021-02-23', '2021-02-25', NULL, NULL, NULL, NULL)
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 286
+[13-May-2022 00:00:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1 in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:291
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(291): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(54): GetModel::getDataRange('cursos', '*', 'fecha_creacion_...', '2021-02-23', '2021-02-24', NULL, NULL, NULL, NULL, 'id_profesor_cur...', '2')
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(38): GetController::getDataRange('cursos', '*', 'fecha_creacion_...', '2021-02-23', '2021-02-24', NULL, NULL, NULL, NULL, 'id_profesor_cur...', '2')
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 291
+[13-May-2022 00:02:10 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 1 in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(292): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(54): GetModel::getDataRange('cursos', '*', 'fecha_creacion_...', '2021-02-23', '2021-02-24', NULL, NULL, NULL, NULL, 'id_profesor_cur...', '2')
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(38): GetController::getDataRange('cursos', '*', 'fecha_creacion_...', '2021-02-23', '2021-02-24', NULL, NULL, NULL, NULL, 'id_profesor_cur...', '2')
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 292
+[13-May-2022 00:15:37 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database-1.relations' doesn't exist in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(292): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(54): GetModel::getDataRange('relations', '*', 'fecha_creacion_...', '2021-02-23', '2021-02-24', NULL, NULL, NULL, NULL, 'id_profesor_cur...', '1')
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(38): GetController::getDataRange('relations', '*', 'fecha_creacion_...', '2021-02-23', '2021-02-24', NULL, NULL, NULL, NULL, 'id_profesor_cur...', '1')
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 292
+[13-May-2022 00:16:09 Europe/Berlin] PHP Warning:  Undefined variable $table in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 318
+[13-May-2022 00:16:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INNER JOIN profesores ON cursos.id_profesor_curso=profesores.id_profesor INNE...' at line 1 in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:333
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(333): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(63): GetModel::getRelDataRange('cursos,profesor...', 'curso,profesor,...', '*', 'fecha_creacion_...', '2021-02-23', '2021-02-24', NULL, NULL, NULL, NULL, 'id_profesor_cur...', '1')
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(42): GetController::getRelDataRange('cursos,profesor...', 'curso,profesor,...', '*', 'fecha_creacion_...', '2021-02-23', '2021-02-24', NULL, NULL, NULL, NULL, 'id_profesor_cur...', '1')
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 333
+[13-May-2022 00:27:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Connectio" not found in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(7): GetModel::getData('assaasas', '*', NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(46): GetController::getData('assaasas', '*', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 8
+[13-May-2022 01:25:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Connectio" not found in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:8
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(7): GetModel::getData('cursos', '*', NULL, NULL, NULL, NULL)
+#1 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(46): GetController::getData('cursos', '*', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 8
+[13-May-2022 01:30:52 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:69
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(69): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(14): GetModel::getDataFilter('cursos', 'id_curso,nombre...', 'nombre_curso,', 'el curso 1', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(16): GetController::getDataFilter('cursos', 'id_curso,nombre...', 'nombre_curso,', 'el curso 1', NULL, NULL, NULL, NULL)
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 69
+[13-May-2022 01:50:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'database-1.asdasdasdas' doesn't exist in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php:208
+Stack trace:
+#0 C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php(208): PDOStatement->execute()
+#1 C:\xampp\htdocs\ApiRestDinamica2\controllers\get.controller.php(36): GetModel::getDataSearch('asdasdasdas', 'nombre_curso', 'nombre_curso,id...', '1_1', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ApiRestDinamica2\routes\services\get.php(30): GetController::getDataSearch('asdasdasdas', 'nombre_curso', 'nombre_curso,id...', '1_1', NULL, NULL, NULL, NULL)
+#3 C:\xampp\htdocs\ApiRestDinamica2\routes\routes.php(18): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ApiRestDinamica2\controllers\routes.controller.php(6): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ApiRestDinamica2\index.php(11): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ApiRestDinamica2\models\get.model.php on line 208
