@@ -22,7 +22,7 @@ if(count($routesArray) == 2 && isset($_SERVER['REQUEST_METHOD']))
     {
         $json = array(
             'status'=>200,
-            'result'=> 'solicitud post'
+            'result'=> 'solicitud post UNO'
         );
         echo json_encode($json, http_response_code($json['status']));
     }
