@@ -14,7 +14,8 @@ App Para la clase de arquitectura dde software
 		direccion
 		correo
 		Telefono
-
+	Encargados => Jefferson DAnilo Castro
+			=> Yuber Alexis
 	debe poder consultar un empleado por documento donde se muestren los siguientes datos
 		Antiguedad
 		Salario
@@ -36,6 +37,8 @@ App Para la clase de arquitectura dde software
 		Debe poder enviar el pago a los trabajadores ademas debe generar desprendible de pago y enviar un correo
 		Debe calcular el aporte de pension y salud de los trabajadores y devolver un listado donde muestre esos datos
 		debe generar el calculo de la liquidacion de un posible trabajador dependiendo de su antiguedad y salario
+		=> Cristian Stiven Arevalo
+		=> Daniel Felipe quintana
 
 3)	Modulo de eventos
 
@@ -48,5 +51,7 @@ App Para la clase de arquitectura dde software
 		Debe permitir listar los eventos pendientes
 		Debe permitir el registro de asistentes a cada evento
 		debe permitir buscar un evento especifico y devolver la lista de asistentes
+		=>Luis Parra 
+		=> Jose Gomez
 
 		
